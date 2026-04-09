@@ -1,0 +1,1542 @@
+{
+  "generatedAt": "2026-04-09T00:41:18.971Z",
+  "me": "me",
+  "availableSources": [
+    "slack",
+    "jira",
+    "google-workspace",
+    "notion",
+    "zoom",
+    "trello",
+    "github",
+    "linear",
+    "confluence",
+    "gmail-calendar",
+    "figma"
+  ],
+  "sourceLabels": {
+    "slack": "Slack",
+    "jira": "Jira",
+    "google-workspace": "Google Workspace",
+    "notion": "Notion",
+    "zoom": "Zoom",
+    "trello": "Trello",
+    "github": "GitHub",
+    "linear": "Linear",
+    "confluence": "Confluence",
+    "gmail-calendar": "Gmail / Calendar",
+    "figma": "Figma"
+  },
+  "sourceAccents": {
+    "slack": "#f59e0b",
+    "jira": "#38bdf8",
+    "google-workspace": "#22c55e",
+    "notion": "#f97316",
+    "zoom": "#60a5fa",
+    "trello": "#14b8a6",
+    "github": "#a78bfa",
+    "linear": "#f43f5e",
+    "confluence": "#2563eb",
+    "gmail-calendar": "#ef4444",
+    "figma": "#ec4899"
+  },
+  "sourceStats": [
+    {
+      "id": "slack",
+      "label": "Slack",
+      "people": 4,
+      "relationships": 3,
+      "scanned": 26
+    },
+    {
+      "id": "jira",
+      "label": "Jira",
+      "people": 4,
+      "relationships": 3,
+      "scanned": 22
+    },
+    {
+      "id": "google-workspace",
+      "label": "Google Workspace",
+      "people": 4,
+      "relationships": 3,
+      "scanned": 18
+    },
+    {
+      "id": "notion",
+      "label": "Notion",
+      "people": 4,
+      "relationships": 3,
+      "scanned": 15
+    },
+    {
+      "id": "zoom",
+      "label": "Zoom",
+      "people": 4,
+      "relationships": 3,
+      "scanned": 17
+    },
+    {
+      "id": "trello",
+      "label": "Trello",
+      "people": 4,
+      "relationships": 3,
+      "scanned": 14
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "people": 4,
+      "relationships": 3,
+      "scanned": 24
+    },
+    {
+      "id": "linear",
+      "label": "Linear",
+      "people": 4,
+      "relationships": 3,
+      "scanned": 19
+    },
+    {
+      "id": "confluence",
+      "label": "Confluence",
+      "people": 4,
+      "relationships": 3,
+      "scanned": 16
+    },
+    {
+      "id": "gmail-calendar",
+      "label": "Gmail / Calendar",
+      "people": 4,
+      "relationships": 3,
+      "scanned": 23
+    },
+    {
+      "id": "figma",
+      "label": "Figma",
+      "people": 4,
+      "relationships": 3,
+      "scanned": 13
+    }
+  ],
+  "stats": {
+    "people": 7,
+    "relationships": 6,
+    "conversationsScanned": 207,
+    "activeSources": 11
+  },
+  "nodes": [
+    {
+      "id": "maya@company.com",
+      "label": "Maya Chen",
+      "handle": "maya@company.com",
+      "kind": "person",
+      "score": 160,
+      "aliases": [
+        "Maya Chen"
+      ],
+      "handles": [
+        "maya@company.com"
+      ],
+      "sources": [
+        "slack",
+        "jira",
+        "notion",
+        "trello",
+        "github",
+        "linear",
+        "confluence",
+        "figma"
+      ],
+      "sourceProfiles": [
+        {
+          "sourceId": "slack",
+          "label": "Maya Chen",
+          "handle": "maya@company.com"
+        },
+        {
+          "sourceId": "jira",
+          "label": "Maya Chen",
+          "handle": "maya@company.com"
+        },
+        {
+          "sourceId": "notion",
+          "label": "Maya Chen",
+          "handle": "maya@company.com"
+        },
+        {
+          "sourceId": "trello",
+          "label": "Maya Chen",
+          "handle": "maya@company.com"
+        },
+        {
+          "sourceId": "github",
+          "label": "Maya Chen",
+          "handle": "maya@company.com"
+        },
+        {
+          "sourceId": "linear",
+          "label": "Maya Chen",
+          "handle": "maya@company.com"
+        },
+        {
+          "sourceId": "confluence",
+          "label": "Maya Chen",
+          "handle": "maya@company.com"
+        },
+        {
+          "sourceId": "figma",
+          "label": "Maya Chen",
+          "handle": "maya@company.com"
+        }
+      ],
+      "sourceCount": 8
+    },
+    {
+      "id": "jordan@company.com",
+      "label": "Jordan Lee",
+      "handle": "jordan@company.com",
+      "kind": "person",
+      "score": 84,
+      "aliases": [
+        "Jordan Lee"
+      ],
+      "handles": [
+        "jordan@company.com"
+      ],
+      "sources": [
+        "slack",
+        "google-workspace",
+        "zoom",
+        "linear",
+        "gmail-calendar",
+        "figma"
+      ],
+      "sourceProfiles": [
+        {
+          "sourceId": "slack",
+          "label": "Jordan Lee",
+          "handle": "jordan@company.com"
+        },
+        {
+          "sourceId": "google-workspace",
+          "label": "Jordan Lee",
+          "handle": "jordan@company.com"
+        },
+        {
+          "sourceId": "zoom",
+          "label": "Jordan Lee",
+          "handle": "jordan@company.com"
+        },
+        {
+          "sourceId": "linear",
+          "label": "Jordan Lee",
+          "handle": "jordan@company.com"
+        },
+        {
+          "sourceId": "gmail-calendar",
+          "label": "Jordan Lee",
+          "handle": "jordan@company.com"
+        },
+        {
+          "sourceId": "figma",
+          "label": "Jordan Lee",
+          "handle": "jordan@company.com"
+        }
+      ],
+      "sourceCount": 6
+    },
+    {
+      "id": "chris@company.com",
+      "label": "Chris Gomez",
+      "handle": "chris@company.com",
+      "kind": "person",
+      "score": 66,
+      "aliases": [
+        "Chris Gomez"
+      ],
+      "handles": [
+        "chris@company.com"
+      ],
+      "sources": [
+        "google-workspace",
+        "notion",
+        "zoom",
+        "github",
+        "confluence",
+        "gmail-calendar"
+      ],
+      "sourceProfiles": [
+        {
+          "sourceId": "google-workspace",
+          "label": "Chris Gomez",
+          "handle": "chris@company.com"
+        },
+        {
+          "sourceId": "notion",
+          "label": "Chris Gomez",
+          "handle": "chris@company.com"
+        },
+        {
+          "sourceId": "zoom",
+          "label": "Chris Gomez",
+          "handle": "chris@company.com"
+        },
+        {
+          "sourceId": "github",
+          "label": "Chris Gomez",
+          "handle": "chris@company.com"
+        },
+        {
+          "sourceId": "confluence",
+          "label": "Chris Gomez",
+          "handle": "chris@company.com"
+        },
+        {
+          "sourceId": "gmail-calendar",
+          "label": "Chris Gomez",
+          "handle": "chris@company.com"
+        }
+      ],
+      "sourceCount": 6
+    },
+    {
+      "id": "priya@company.com",
+      "label": "Priya Shah",
+      "handle": "priya@company.com",
+      "kind": "person",
+      "score": 48,
+      "aliases": [
+        "Priya Shah"
+      ],
+      "handles": [
+        "priya@company.com"
+      ],
+      "sources": [
+        "jira",
+        "google-workspace",
+        "linear",
+        "gmail-calendar"
+      ],
+      "sourceProfiles": [
+        {
+          "sourceId": "jira",
+          "label": "Priya Shah",
+          "handle": "priya@company.com"
+        },
+        {
+          "sourceId": "google-workspace",
+          "label": "Priya Shah",
+          "handle": "priya@company.com"
+        },
+        {
+          "sourceId": "linear",
+          "label": "Priya Shah",
+          "handle": "priya@company.com"
+        },
+        {
+          "sourceId": "gmail-calendar",
+          "label": "Priya Shah",
+          "handle": "priya@company.com"
+        }
+      ],
+      "sourceCount": 4
+    },
+    {
+      "id": "sam@company.com",
+      "label": "Sam Rivera",
+      "handle": "sam@company.com",
+      "kind": "person",
+      "score": 45,
+      "aliases": [
+        "Sam Rivera"
+      ],
+      "handles": [
+        "sam@company.com"
+      ],
+      "sources": [
+        "slack",
+        "notion",
+        "trello",
+        "confluence",
+        "figma"
+      ],
+      "sourceProfiles": [
+        {
+          "sourceId": "slack",
+          "label": "Sam Rivera",
+          "handle": "sam@company.com"
+        },
+        {
+          "sourceId": "notion",
+          "label": "Sam Rivera",
+          "handle": "sam@company.com"
+        },
+        {
+          "sourceId": "trello",
+          "label": "Sam Rivera",
+          "handle": "sam@company.com"
+        },
+        {
+          "sourceId": "confluence",
+          "label": "Sam Rivera",
+          "handle": "sam@company.com"
+        },
+        {
+          "sourceId": "figma",
+          "label": "Sam Rivera",
+          "handle": "sam@company.com"
+        }
+      ],
+      "sourceCount": 5
+    },
+    {
+      "id": "alex@company.com",
+      "label": "Alex Kim",
+      "handle": "alex@company.com",
+      "kind": "person",
+      "score": 40,
+      "aliases": [
+        "Alex Kim"
+      ],
+      "handles": [
+        "alex@company.com"
+      ],
+      "sources": [
+        "jira",
+        "zoom",
+        "trello",
+        "github"
+      ],
+      "sourceProfiles": [
+        {
+          "sourceId": "jira",
+          "label": "Alex Kim",
+          "handle": "alex@company.com"
+        },
+        {
+          "sourceId": "zoom",
+          "label": "Alex Kim",
+          "handle": "alex@company.com"
+        },
+        {
+          "sourceId": "trello",
+          "label": "Alex Kim",
+          "handle": "alex@company.com"
+        },
+        {
+          "sourceId": "github",
+          "label": "Alex Kim",
+          "handle": "alex@company.com"
+        }
+      ],
+      "sourceCount": 4
+    },
+    {
+      "id": "me",
+      "label": "You",
+      "handle": "you@company.com",
+      "kind": "self",
+      "score": 11,
+      "aliases": [
+        "You"
+      ],
+      "handles": [
+        "you@company.com"
+      ],
+      "sources": [
+        "slack",
+        "jira",
+        "google-workspace",
+        "notion",
+        "zoom",
+        "trello",
+        "github",
+        "linear",
+        "confluence",
+        "gmail-calendar",
+        "figma"
+      ],
+      "sourceProfiles": [
+        {
+          "sourceId": "slack",
+          "label": "You",
+          "handle": "you@company.com"
+        },
+        {
+          "sourceId": "jira",
+          "label": "You",
+          "handle": "you@company.com"
+        },
+        {
+          "sourceId": "google-workspace",
+          "label": "You",
+          "handle": "you@company.com"
+        },
+        {
+          "sourceId": "notion",
+          "label": "You",
+          "handle": "you@company.com"
+        },
+        {
+          "sourceId": "zoom",
+          "label": "You",
+          "handle": "you@company.com"
+        },
+        {
+          "sourceId": "trello",
+          "label": "You",
+          "handle": "you@company.com"
+        },
+        {
+          "sourceId": "github",
+          "label": "You",
+          "handle": "you@company.com"
+        },
+        {
+          "sourceId": "linear",
+          "label": "You",
+          "handle": "you@company.com"
+        },
+        {
+          "sourceId": "confluence",
+          "label": "You",
+          "handle": "you@company.com"
+        },
+        {
+          "sourceId": "gmail-calendar",
+          "label": "You",
+          "handle": "you@company.com"
+        },
+        {
+          "sourceId": "figma",
+          "label": "You",
+          "handle": "you@company.com"
+        }
+      ],
+      "sourceCount": 11
+    }
+  ],
+  "edges": [
+    {
+      "id": "maya@company.com:me",
+      "source": "me",
+      "target": "maya@company.com",
+      "weight": 83,
+      "directMessages": 9,
+      "mentions": 6,
+      "sharedChannelSignals": 26,
+      "channels": [
+        "DM with Maya",
+        "#launch-room",
+        "Project PAY",
+        "Project WEB",
+        "Notion Launch Specs",
+        "Board Launch PMO",
+        "Repo web-checkout",
+        "Linear Checkout",
+        "Linear Launch Board",
+        "Space Product Launch",
+        "Figma Launch Narrative"
+      ],
+      "sources": [
+        "slack",
+        "jira",
+        "notion",
+        "trello",
+        "github",
+        "linear",
+        "confluence",
+        "figma"
+      ],
+      "sourceWeights": {
+        "slack": 18,
+        "jira": 20,
+        "notion": 7,
+        "trello": 6,
+        "github": 8,
+        "linear": 11,
+        "confluence": 7,
+        "figma": 6
+      },
+      "sourceHighlights": [
+        {
+          "sourceId": "jira",
+          "label": "Jira",
+          "weight": 20,
+          "relationshipLabel": "Core collaborator",
+          "relationshipSummary": "20 weighted signals within this source.",
+          "conversationBrief": "Core delivery planning across payments and web.",
+          "conversationSpacesBrief": "Shared across multiple Jira projects.",
+          "reasons": [
+            "4 mentions",
+            "9 shared signals"
+          ],
+          "channels": [
+            "Project PAY",
+            "Project WEB"
+          ],
+          "topTopics": [
+            "Checkout Flow",
+            "Payment Retry",
+            "Release Blockers"
+          ]
+        },
+        {
+          "sourceId": "slack",
+          "label": "Slack",
+          "weight": 18,
+          "relationshipLabel": "Core collaborator",
+          "relationshipSummary": "18 weighted signals within this source.",
+          "conversationBrief": "Fast-moving launch coordination and decision making.",
+          "conversationSpacesBrief": "Mix of DMs and shared channels.",
+          "reasons": [
+            "9 direct messages",
+            "2 mentions",
+            "1 shared signals"
+          ],
+          "channels": [
+            "DM with Maya",
+            "#launch-room"
+          ],
+          "topTopics": [
+            "Launch Plan",
+            "Feedback Loop",
+            "Timeline Risk"
+          ]
+        },
+        {
+          "sourceId": "linear",
+          "label": "Linear",
+          "weight": 11,
+          "relationshipLabel": "Strong collaborator",
+          "relationshipSummary": "11 weighted signals within this source.",
+          "conversationBrief": "Execution planning and launch scoping.",
+          "conversationSpacesBrief": "Shared Linear projects.",
+          "reasons": [
+            "4 shared signals"
+          ],
+          "channels": [
+            "Linear Checkout",
+            "Linear Launch Board"
+          ],
+          "topTopics": [
+            "Cycle Planning",
+            "Scope Tradeoffs",
+            "Priority Queue"
+          ]
+        },
+        {
+          "sourceId": "github",
+          "label": "GitHub",
+          "weight": 8,
+          "relationshipLabel": "Occasional collaborator",
+          "relationshipSummary": "8 weighted signals within this source.",
+          "conversationBrief": "Product-delivery followthrough on engineering changes.",
+          "conversationSpacesBrief": "One shared repo stream.",
+          "reasons": [
+            "3 shared signals"
+          ],
+          "channels": [
+            "Repo web-checkout"
+          ],
+          "topTopics": [
+            "Checkout Bug",
+            "Spec Followthrough",
+            "Release Notes"
+          ]
+        },
+        {
+          "sourceId": "notion",
+          "label": "Notion",
+          "weight": 7,
+          "relationshipLabel": "Occasional collaborator",
+          "relationshipSummary": "7 weighted signals within this source.",
+          "conversationBrief": "Planning docs and launch specs.",
+          "conversationSpacesBrief": "One shared doc stream.",
+          "reasons": [
+            "2 shared signals"
+          ],
+          "channels": [
+            "Notion Launch Specs"
+          ],
+          "topTopics": [
+            "Launch Spec",
+            "Ownership",
+            "Milestones"
+          ]
+        },
+        {
+          "sourceId": "confluence",
+          "label": "Confluence",
+          "weight": 7,
+          "relationshipLabel": "Occasional collaborator",
+          "relationshipSummary": "7 weighted signals within this source.",
+          "conversationBrief": "Launch documentation and cross-team references.",
+          "conversationSpacesBrief": "One shared documentation stream.",
+          "reasons": [
+            "3 shared signals"
+          ],
+          "channels": [
+            "Space Product Launch"
+          ],
+          "topTopics": [
+            "Launch Brief",
+            "Milestones",
+            "Decision Notes"
+          ]
+        },
+        {
+          "sourceId": "trello",
+          "label": "Trello",
+          "weight": 6,
+          "relationshipLabel": "Occasional collaborator",
+          "relationshipSummary": "6 weighted signals within this source.",
+          "conversationBrief": "Launch execution and milestone tracking.",
+          "conversationSpacesBrief": "Shared board workflow.",
+          "reasons": [
+            "2 shared signals"
+          ],
+          "channels": [
+            "Board Launch PMO"
+          ],
+          "topTopics": [
+            "Milestones",
+            "Dependencies",
+            "Ship List"
+          ]
+        },
+        {
+          "sourceId": "figma",
+          "label": "Figma",
+          "weight": 6,
+          "relationshipLabel": "Occasional collaborator",
+          "relationshipSummary": "6 weighted signals within this source.",
+          "conversationBrief": "Product review and handoff around key flows.",
+          "conversationSpacesBrief": "One shared file stream.",
+          "reasons": [
+            "2 shared signals"
+          ],
+          "channels": [
+            "Figma Launch Narrative"
+          ],
+          "topTopics": [
+            "Review Notes",
+            "Handoff",
+            "Approval"
+          ]
+        }
+      ],
+      "reasons": [
+        "9 direct-message signals",
+        "6 mentions",
+        "26 shared collaboration signals",
+        "8 contributing sources"
+      ],
+      "relationship": {
+        "label": "Core collaborator",
+        "summary": "83 total collaboration signals across 8 sources: Slack, Jira, Notion, Trello, GitHub, Linear, Confluence, Figma."
+      },
+      "topTopics": [
+        "Milestones",
+        "Launch Plan",
+        "Checkout Flow",
+        "Launch Spec",
+        "Checkout Bug"
+      ],
+      "conversationBrief": "Combined from Jira, Slack, Linear, GitHub, Notion, Confluence, Trello, Figma. Strongest themes: Milestones, Launch Plan, Checkout Flow.",
+      "conversationSpacesBrief": "Visible in 8 sources across 11 contexts.",
+      "primarySource": "jira"
+    },
+    {
+      "id": "chris@company.com:me",
+      "source": "me",
+      "target": "chris@company.com",
+      "weight": 53,
+      "directMessages": 0,
+      "mentions": 0,
+      "sharedChannelSignals": 22,
+      "channels": [
+        "Meet Staff Sync",
+        "Drive Forecast",
+        "Notion Planning OS",
+        "Zoom Leadership Sync",
+        "Zoom Forecast Review",
+        "Repo platform-observability",
+        "Space Planning",
+        "Space Leadership",
+        "Weekly Forecast",
+        "Leadership Review",
+        "Budget Planning"
+      ],
+      "sources": [
+        "google-workspace",
+        "notion",
+        "zoom",
+        "github",
+        "confluence",
+        "gmail-calendar"
+      ],
+      "sourceWeights": {
+        "google-workspace": 9,
+        "notion": 5,
+        "zoom": 11,
+        "github": 6,
+        "confluence": 10,
+        "gmail-calendar": 12
+      },
+      "sourceHighlights": [
+        {
+          "sourceId": "gmail-calendar",
+          "label": "Gmail / Calendar",
+          "weight": 12,
+          "relationshipLabel": "Strong collaborator",
+          "relationshipSummary": "12 weighted signals within this source.",
+          "conversationBrief": "Recurring planning meetings and follow-up email threads.",
+          "conversationSpacesBrief": "Calendar events and email cadence.",
+          "reasons": [
+            "5 shared signals"
+          ],
+          "channels": [
+            "Weekly Forecast",
+            "Leadership Review",
+            "Budget Planning"
+          ],
+          "topTopics": [
+            "Forecast",
+            "Budget",
+            "Followup"
+          ]
+        },
+        {
+          "sourceId": "zoom",
+          "label": "Zoom",
+          "weight": 11,
+          "relationshipLabel": "Strong collaborator",
+          "relationshipSummary": "11 weighted signals within this source.",
+          "conversationBrief": "Leadership alignment and dependency review.",
+          "conversationSpacesBrief": "Leadership and planning meetings.",
+          "reasons": [
+            "5 shared signals"
+          ],
+          "channels": [
+            "Zoom Leadership Sync",
+            "Zoom Forecast Review"
+          ],
+          "topTopics": [
+            "Leadership Sync",
+            "Forecast",
+            "Dependencies"
+          ]
+        },
+        {
+          "sourceId": "confluence",
+          "label": "Confluence",
+          "weight": 10,
+          "relationshipLabel": "Strong collaborator",
+          "relationshipSummary": "10 weighted signals within this source.",
+          "conversationBrief": "Shared authorship of planning and operating documents.",
+          "conversationSpacesBrief": "Multiple shared Confluence spaces.",
+          "reasons": [
+            "4 shared signals"
+          ],
+          "channels": [
+            "Space Planning",
+            "Space Leadership"
+          ],
+          "topTopics": [
+            "Planning Docs",
+            "Operating Model",
+            "Decision Log"
+          ]
+        },
+        {
+          "sourceId": "google-workspace",
+          "label": "Google Workspace",
+          "weight": 9,
+          "relationshipLabel": "Strong collaborator",
+          "relationshipSummary": "9 weighted signals within this source.",
+          "conversationBrief": "Planning cadence and forecast updates.",
+          "conversationSpacesBrief": "Recurring planning sessions.",
+          "reasons": [
+            "4 shared signals"
+          ],
+          "channels": [
+            "Meet Staff Sync",
+            "Drive Forecast"
+          ],
+          "topTopics": [
+            "Forecast",
+            "Roadmap Review",
+            "Capacity Planning"
+          ]
+        },
+        {
+          "sourceId": "github",
+          "label": "GitHub",
+          "weight": 6,
+          "relationshipLabel": "Occasional collaborator",
+          "relationshipSummary": "6 weighted signals within this source.",
+          "conversationBrief": "Platform code review and reliability follow-up.",
+          "conversationSpacesBrief": "Shared engineering work.",
+          "reasons": [
+            "2 shared signals"
+          ],
+          "channels": [
+            "Repo platform-observability"
+          ],
+          "topTopics": [
+            "Observability",
+            "PR Feedback",
+            "Incident Context"
+          ]
+        },
+        {
+          "sourceId": "notion",
+          "label": "Notion",
+          "weight": 5,
+          "relationshipLabel": "Light connection",
+          "relationshipSummary": "5 weighted signals within this source.",
+          "conversationBrief": "Ops templates and review structure.",
+          "conversationSpacesBrief": "Shared workspace structure.",
+          "reasons": [
+            "2 shared signals"
+          ],
+          "channels": [
+            "Notion Planning OS"
+          ],
+          "topTopics": [
+            "Operating Model",
+            "Review Cadence",
+            "Templates"
+          ]
+        }
+      ],
+      "reasons": [
+        "22 shared collaboration signals",
+        "6 contributing sources"
+      ],
+      "relationship": {
+        "label": "Core collaborator",
+        "summary": "53 total collaboration signals across 6 sources: Google Workspace, Notion, Zoom, GitHub, Confluence, Gmail / Calendar."
+      },
+      "topTopics": [
+        "Forecast",
+        "Operating Model",
+        "Leadership Sync",
+        "Observability",
+        "Planning Docs"
+      ],
+      "conversationBrief": "Combined from Gmail / Calendar, Zoom, Confluence, Google Workspace, GitHub, Notion. Strongest themes: Forecast, Operating Model, Leadership Sync.",
+      "conversationSpacesBrief": "Visible in 6 sources across 11 contexts.",
+      "primarySource": "gmail-calendar"
+    },
+    {
+      "id": "jordan@company.com:me",
+      "source": "me",
+      "target": "jordan@company.com",
+      "weight": 52,
+      "directMessages": 4,
+      "mentions": 1,
+      "sharedChannelSignals": 17,
+      "channels": [
+        "DM with Jordan",
+        "#design-ops",
+        "Docs UX Brief",
+        "Zoom Design Crit",
+        "Zoom Sprint Retro",
+        "Linear UX Improvements",
+        "Design Review Calendar",
+        "Figma Checkout Redesign",
+        "Figma Experiment Board"
+      ],
+      "sources": [
+        "slack",
+        "google-workspace",
+        "zoom",
+        "linear",
+        "gmail-calendar",
+        "figma"
+      ],
+      "sourceWeights": {
+        "slack": 12,
+        "google-workspace": 6,
+        "zoom": 9,
+        "linear": 9,
+        "gmail-calendar": 6,
+        "figma": 10
+      },
+      "sourceHighlights": [
+        {
+          "sourceId": "slack",
+          "label": "Slack",
+          "weight": 12,
+          "relationshipLabel": "Strong collaborator",
+          "relationshipSummary": "12 weighted signals within this source.",
+          "conversationBrief": "Design iteration and experiment review.",
+          "conversationSpacesBrief": "Mostly DMs plus one shared channel.",
+          "reasons": [
+            "4 direct messages",
+            "1 mentions",
+            "2 shared signals"
+          ],
+          "channels": [
+            "DM with Jordan",
+            "#design-ops"
+          ],
+          "topTopics": [
+            "Design Review",
+            "Experiment Results",
+            "Sprint Scope"
+          ]
+        },
+        {
+          "sourceId": "figma",
+          "label": "Figma",
+          "weight": 10,
+          "relationshipLabel": "Strong collaborator",
+          "relationshipSummary": "10 weighted signals within this source.",
+          "conversationBrief": "Tight design collaboration through prototypes and comments.",
+          "conversationSpacesBrief": "Multiple shared design files.",
+          "reasons": [
+            "4 shared signals"
+          ],
+          "channels": [
+            "Figma Checkout Redesign",
+            "Figma Experiment Board"
+          ],
+          "topTopics": [
+            "Comment Threads",
+            "Prototype Feedback",
+            "UX Polish"
+          ]
+        },
+        {
+          "sourceId": "zoom",
+          "label": "Zoom",
+          "weight": 9,
+          "relationshipLabel": "Strong collaborator",
+          "relationshipSummary": "9 weighted signals within this source.",
+          "conversationBrief": "Regular meetings with action-heavy follow-through.",
+          "conversationSpacesBrief": "Recurring sessions.",
+          "reasons": [
+            "4 shared signals"
+          ],
+          "channels": [
+            "Zoom Design Crit",
+            "Zoom Sprint Retro"
+          ],
+          "topTopics": [
+            "Critique",
+            "Retro",
+            "Tradeoffs"
+          ]
+        },
+        {
+          "sourceId": "linear",
+          "label": "Linear",
+          "weight": 9,
+          "relationshipLabel": "Occasional collaborator",
+          "relationshipSummary": "9 weighted signals within this source.",
+          "conversationBrief": "Product-design execution and issue shaping.",
+          "conversationSpacesBrief": "One issue stream.",
+          "reasons": [
+            "3 shared signals"
+          ],
+          "channels": [
+            "Linear UX Improvements"
+          ],
+          "topTopics": [
+            "Backlog Grooming",
+            "Acceptance Criteria",
+            "Design Debt"
+          ]
+        },
+        {
+          "sourceId": "google-workspace",
+          "label": "Google Workspace",
+          "weight": 6,
+          "relationshipLabel": "Occasional collaborator",
+          "relationshipSummary": "6 weighted signals within this source.",
+          "conversationBrief": "Design and documentation approvals.",
+          "conversationSpacesBrief": "Shared docs.",
+          "reasons": [
+            "2 shared signals"
+          ],
+          "channels": [
+            "Docs UX Brief"
+          ],
+          "topTopics": [
+            "UX Brief",
+            "Copy Review",
+            "Approval Notes"
+          ]
+        },
+        {
+          "sourceId": "gmail-calendar",
+          "label": "Gmail / Calendar",
+          "weight": 6,
+          "relationshipLabel": "Occasional collaborator",
+          "relationshipSummary": "6 weighted signals within this source.",
+          "conversationBrief": "Meeting cadence around design reviews and feedback.",
+          "conversationSpacesBrief": "One recurring event stream.",
+          "reasons": [
+            "2 shared signals"
+          ],
+          "channels": [
+            "Design Review Calendar"
+          ],
+          "topTopics": [
+            "Review Notes",
+            "Agenda",
+            "Feedback Loop"
+          ]
+        }
+      ],
+      "reasons": [
+        "4 direct-message signals",
+        "1 mentions",
+        "17 shared collaboration signals",
+        "6 contributing sources"
+      ],
+      "relationship": {
+        "label": "Core collaborator",
+        "summary": "52 total collaboration signals across 6 sources: Slack, Google Workspace, Zoom, Linear, Gmail / Calendar, Figma."
+      },
+      "topTopics": [
+        "Design Review",
+        "UX Brief",
+        "Critique",
+        "Backlog Grooming",
+        "Review Notes"
+      ],
+      "conversationBrief": "Combined from Slack, Figma, Zoom, Linear, Google Workspace, Gmail / Calendar. Strongest themes: Design Review, UX Brief, Critique.",
+      "conversationSpacesBrief": "Visible in 6 sources across 9 contexts.",
+      "primarySource": "slack"
+    },
+    {
+      "id": "me:priya@company.com",
+      "source": "me",
+      "target": "priya@company.com",
+      "weight": 37,
+      "directMessages": 0,
+      "mentions": 2,
+      "sharedChannelSignals": 15,
+      "channels": [
+        "Project OPS",
+        "Project PAY",
+        "Meet Weekly Review",
+        "Drive Ops Folder",
+        "Linear Ops Queue",
+        "Support Review",
+        "On-call Debrief"
+      ],
+      "sources": [
+        "jira",
+        "google-workspace",
+        "linear",
+        "gmail-calendar"
+      ],
+      "sourceWeights": {
+        "jira": 11,
+        "google-workspace": 10,
+        "linear": 7,
+        "gmail-calendar": 9
+      },
+      "sourceHighlights": [
+        {
+          "sourceId": "jira",
+          "label": "Jira",
+          "weight": 11,
+          "relationshipLabel": "Team channel partner",
+          "relationshipSummary": "11 weighted signals within this source.",
+          "conversationBrief": "Support and operational coordination.",
+          "conversationSpacesBrief": "Shared project work.",
+          "reasons": [
+            "2 mentions",
+            "5 shared signals"
+          ],
+          "channels": [
+            "Project OPS",
+            "Project PAY"
+          ],
+          "topTopics": [
+            "Runbook Updates",
+            "Escalation Policy",
+            "Support Handoff"
+          ]
+        },
+        {
+          "sourceId": "google-workspace",
+          "label": "Google Workspace",
+          "weight": 10,
+          "relationshipLabel": "Strong collaborator",
+          "relationshipSummary": "10 weighted signals within this source.",
+          "conversationBrief": "Recurring syncs and shared docs.",
+          "conversationSpacesBrief": "Meetings plus shared docs.",
+          "reasons": [
+            "4 shared signals"
+          ],
+          "channels": [
+            "Meet Weekly Review",
+            "Drive Ops Folder"
+          ],
+          "topTopics": [
+            "Weekly Review",
+            "Docs Alignment",
+            "Metrics Recap"
+          ]
+        },
+        {
+          "sourceId": "gmail-calendar",
+          "label": "Gmail / Calendar",
+          "weight": 9,
+          "relationshipLabel": "Strong collaborator",
+          "relationshipSummary": "9 weighted signals within this source.",
+          "conversationBrief": "High-frequency support and incident coordination.",
+          "conversationSpacesBrief": "Recurring ops meetings.",
+          "reasons": [
+            "4 shared signals"
+          ],
+          "channels": [
+            "Support Review",
+            "On-call Debrief"
+          ],
+          "topTopics": [
+            "Incident Followup",
+            "Escalation Notes",
+            "Action Items"
+          ]
+        },
+        {
+          "sourceId": "linear",
+          "label": "Linear",
+          "weight": 7,
+          "relationshipLabel": "Occasional collaborator",
+          "relationshipSummary": "7 weighted signals within this source.",
+          "conversationBrief": "Operational task tracking and prioritization.",
+          "conversationSpacesBrief": "Shared Linear triage.",
+          "reasons": [
+            "2 shared signals"
+          ],
+          "channels": [
+            "Linear Ops Queue"
+          ],
+          "topTopics": [
+            "Escalation Queue",
+            "Triage",
+            "Dependencies"
+          ]
+        }
+      ],
+      "reasons": [
+        "2 mentions",
+        "15 shared collaboration signals",
+        "4 contributing sources"
+      ],
+      "relationship": {
+        "label": "Core collaborator",
+        "summary": "37 total collaboration signals across 4 sources: Jira, Google Workspace, Linear, Gmail / Calendar."
+      },
+      "topTopics": [
+        "Runbook Updates",
+        "Weekly Review",
+        "Escalation Queue",
+        "Incident Followup",
+        "Escalation Policy"
+      ],
+      "conversationBrief": "Combined from Jira, Google Workspace, Gmail / Calendar, Linear. Strongest themes: Runbook Updates, Weekly Review, Escalation Queue.",
+      "conversationSpacesBrief": "Visible in 4 sources across 7 contexts.",
+      "primarySource": "jira"
+    },
+    {
+      "id": "alex@company.com:me",
+      "source": "me",
+      "target": "alex@company.com",
+      "weight": 36,
+      "directMessages": 0,
+      "mentions": 1,
+      "sharedChannelSignals": 14,
+      "channels": [
+        "Project MOB",
+        "Zoom Mobile QA",
+        "Board Mobile QA",
+        "Board Release Checklists",
+        "Repo mobile-app",
+        "Repo release-tools"
+      ],
+      "sources": [
+        "jira",
+        "zoom",
+        "trello",
+        "github"
+      ],
+      "sourceWeights": {
+        "jira": 8,
+        "zoom": 6,
+        "trello": 10,
+        "github": 12
+      },
+      "sourceHighlights": [
+        {
+          "sourceId": "github",
+          "label": "GitHub",
+          "weight": 12,
+          "relationshipLabel": "Strong collaborator",
+          "relationshipSummary": "12 weighted signals within this source.",
+          "conversationBrief": "Engineering review and release tooling collaboration.",
+          "conversationSpacesBrief": "Shared repos and review threads.",
+          "reasons": [
+            "5 shared signals"
+          ],
+          "channels": [
+            "Repo mobile-app",
+            "Repo release-tools"
+          ],
+          "topTopics": [
+            "Pull Request Review",
+            "Release Automation",
+            "Regression Fix"
+          ]
+        },
+        {
+          "sourceId": "trello",
+          "label": "Trello",
+          "weight": 10,
+          "relationshipLabel": "Strong collaborator",
+          "relationshipSummary": "10 weighted signals within this source.",
+          "conversationBrief": "Execution handoffs and shipping readiness.",
+          "conversationSpacesBrief": "Boards and card movement.",
+          "reasons": [
+            "4 shared signals"
+          ],
+          "channels": [
+            "Board Mobile QA",
+            "Board Release Checklists"
+          ],
+          "topTopics": [
+            "Checklist",
+            "Handoff",
+            "Regression Sweep"
+          ]
+        },
+        {
+          "sourceId": "jira",
+          "label": "Jira",
+          "weight": 8,
+          "relationshipLabel": "Occasional collaborator",
+          "relationshipSummary": "8 weighted signals within this source.",
+          "conversationBrief": "Mobile release quality and bug fixing.",
+          "conversationSpacesBrief": "One shared delivery stream.",
+          "reasons": [
+            "1 mentions",
+            "3 shared signals"
+          ],
+          "channels": [
+            "Project MOB"
+          ],
+          "topTopics": [
+            "Ios Release",
+            "Crash Rate",
+            "Regression"
+          ]
+        },
+        {
+          "sourceId": "zoom",
+          "label": "Zoom",
+          "weight": 6,
+          "relationshipLabel": "Occasional collaborator",
+          "relationshipSummary": "6 weighted signals within this source.",
+          "conversationBrief": "Focused debugging and release sessions.",
+          "conversationSpacesBrief": "Project-specific meetings.",
+          "reasons": [
+            "2 shared signals"
+          ],
+          "channels": [
+            "Zoom Mobile QA"
+          ],
+          "topTopics": [
+            "Bug Review",
+            "QA Blockers",
+            "Release Readiness"
+          ]
+        }
+      ],
+      "reasons": [
+        "1 mentions",
+        "14 shared collaboration signals",
+        "4 contributing sources"
+      ],
+      "relationship": {
+        "label": "Core collaborator",
+        "summary": "36 total collaboration signals across 4 sources: Jira, Zoom, Trello, GitHub."
+      },
+      "topTopics": [
+        "Ios Release",
+        "Bug Review",
+        "Checklist",
+        "Pull Request Review",
+        "Crash Rate"
+      ],
+      "conversationBrief": "Combined from GitHub, Trello, Jira, Zoom. Strongest themes: Ios Release, Bug Review, Checklist.",
+      "conversationSpacesBrief": "Visible in 4 sources across 6 contexts.",
+      "primarySource": "github"
+    },
+    {
+      "id": "me:sam@company.com",
+      "source": "me",
+      "target": "sam@company.com",
+      "weight": 31,
+      "directMessages": 0,
+      "mentions": 1,
+      "sharedChannelSignals": 11,
+      "channels": [
+        "#community",
+        "#partner-rollout",
+        "Notion Growth Wiki",
+        "Notion Partner Hub",
+        "Board Campaign Ops",
+        "Space Partnerships",
+        "Figma Partner Assets"
+      ],
+      "sources": [
+        "slack",
+        "notion",
+        "trello",
+        "confluence",
+        "figma"
+      ],
+      "sourceWeights": {
+        "slack": 6,
+        "notion": 9,
+        "trello": 7,
+        "confluence": 5,
+        "figma": 4
+      },
+      "sourceHighlights": [
+        {
+          "sourceId": "notion",
+          "label": "Notion",
+          "weight": 9,
+          "relationshipLabel": "Strong collaborator",
+          "relationshipSummary": "9 weighted signals within this source.",
+          "conversationBrief": "Documented playbooks and execution notes.",
+          "conversationSpacesBrief": "Shared pages and databases.",
+          "reasons": [
+            "3 shared signals"
+          ],
+          "channels": [
+            "Notion Growth Wiki",
+            "Notion Partner Hub"
+          ],
+          "topTopics": [
+            "Campaign Notes",
+            "Playbook",
+            "Partner Checklist"
+          ]
+        },
+        {
+          "sourceId": "trello",
+          "label": "Trello",
+          "weight": 7,
+          "relationshipLabel": "Occasional collaborator",
+          "relationshipSummary": "7 weighted signals within this source.",
+          "conversationBrief": "Task tracking and cross-team handoffs.",
+          "conversationSpacesBrief": "One delivery board.",
+          "reasons": [
+            "3 shared signals"
+          ],
+          "channels": [
+            "Board Campaign Ops"
+          ],
+          "topTopics": [
+            "Campaign Tasks",
+            "Owners",
+            "Deadlines"
+          ]
+        },
+        {
+          "sourceId": "slack",
+          "label": "Slack",
+          "weight": 6,
+          "relationshipLabel": "Occasional collaborator",
+          "relationshipSummary": "6 weighted signals within this source.",
+          "conversationBrief": "Community coordination and external outreach.",
+          "conversationSpacesBrief": "Shared Slack channels.",
+          "reasons": [
+            "1 mentions",
+            "2 shared signals"
+          ],
+          "channels": [
+            "#community",
+            "#partner-rollout"
+          ],
+          "topTopics": [
+            "Partner Intro",
+            "Channel Feedback",
+            "Outreach Copy"
+          ]
+        },
+        {
+          "sourceId": "confluence",
+          "label": "Confluence",
+          "weight": 5,
+          "relationshipLabel": "Light connection",
+          "relationshipSummary": "5 weighted signals within this source.",
+          "conversationBrief": "Knowledge base updates for partnership execution.",
+          "conversationSpacesBrief": "One shared knowledge space.",
+          "reasons": [
+            "2 shared signals"
+          ],
+          "channels": [
+            "Space Partnerships"
+          ],
+          "topTopics": [
+            "Partner Playbook",
+            "Notes",
+            "Templates"
+          ]
+        },
+        {
+          "sourceId": "figma",
+          "label": "Figma",
+          "weight": 4,
+          "relationshipLabel": "Light connection",
+          "relationshipSummary": "4 weighted signals within this source.",
+          "conversationBrief": "Occasional asset review and collaboration.",
+          "conversationSpacesBrief": "Light shared design work.",
+          "reasons": [
+            "1 shared signals"
+          ],
+          "channels": [
+            "Figma Partner Assets"
+          ],
+          "topTopics": [
+            "Asset Review",
+            "Brand Notes",
+            "Comment Threads"
+          ]
+        }
+      ],
+      "reasons": [
+        "1 mentions",
+        "11 shared collaboration signals",
+        "5 contributing sources"
+      ],
+      "relationship": {
+        "label": "Core collaborator",
+        "summary": "31 total collaboration signals across 5 sources: Slack, Notion, Trello, Confluence, Figma."
+      },
+      "topTopics": [
+        "Partner Intro",
+        "Campaign Notes",
+        "Campaign Tasks",
+        "Partner Playbook",
+        "Asset Review"
+      ],
+      "conversationBrief": "Combined from Notion, Trello, Slack, Confluence, Figma. Strongest themes: Partner Intro, Campaign Notes, Campaign Tasks.",
+      "conversationSpacesBrief": "Visible in 5 sources across 7 contexts.",
+      "primarySource": "notion"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Knowledge-Graph-Pro</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="bg-orb bg-orb--one"></div>
+      <div class="bg-orb bg-orb--two"></div>
+      <div class="bg-grid"></div>
+
+      <header class="header-grid">
+        <section class="intro card">
+          <div class="intro-top">
+            <p class="eyebrow">Knowledge-Graph-Pro</p>
+            <span id="statusBadge" class="status-badge">Loading</span>
+          </div>
+          <h1>Unified relationship intelligence across your work stack.</h1>
+          <p class="intro-text">
+            Combine Slack, Jira, Google Workspace, Notion, Zoom, and Trello into one graph, then
+            filter by source whenever you want a tighter view.
+          </p>
+          <div class="hero-actions">
+            <button id="openIntegrationsButton" class="primary-button">Manage Integrations</button>
+            <button id="refreshButton" class="secondary-button" disabled>Refresh Connected Sources</button>
+          </div>
+          <div class="mode-toggles">
+            <button id="previewModeToggle" class="toggle-widget toggle-widget--preview" type="button">
+              <span class="toggle-widget-copy">
+                <span class="toggle-widget-label">Preview Mode</span>
+                <span id="previewModeToggleText" class="toggle-widget-meta">On</span>
+              </span>
+              <span class="toggle-widget-track">
+                <span class="toggle-widget-thumb"></span>
+              </span>
+            </button>
+            <button id="themeToggleButton" class="toggle-widget toggle-widget--theme" type="button">
+              <span class="toggle-widget-copy">
+                <span class="toggle-widget-label">Theme</span>
+                <span id="themeToggleText" class="toggle-widget-meta">Night</span>
+              </span>
+              <span class="toggle-widget-track">
+                <span class="toggle-widget-thumb"></span>
+              </span>
+            </button>
+          </div>
+          <p id="statusText" class="status-text">Checking connected sources...</p>
+        </section>
+
+        <section class="metrics card">
+          <article class="metric-card">
+            <span class="metric-label">People</span>
+            <strong id="peopleMetric">0</strong>
+          </article>
+          <article class="metric-card">
+            <span class="metric-label">Relationships</span>
+            <strong id="relationshipMetric">0</strong>
+          </article>
+          <article class="metric-card">
+            <span class="metric-label">Sources</span>
+            <strong id="sourceMetric">0</strong>
+          </article>
+          <article class="metric-card">
+            <span class="metric-label">Signals scanned</span>
+            <strong id="signalMetric">0</strong>
+          </article>
+        </section>
+      </header>
+
+      <section class="tab-strip card">
+        <button id="graphTabButton" class="tab-button is-active">Graph</button>
+        <button id="integrationsTabButton" class="tab-button">Integrations</button>
+      </section>
+
+      <section id="graphTab" class="tab-panel">
+        <main class="workspace">
+          <section class="graph-panel card">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow eyebrow--small">Graph Controls</p>
+                <h2>Combined relationship graph</h2>
+              </div>
+              <button id="resetViewButton" class="ghost-button">Reset View</button>
+            </div>
+
+            <div class="controls-grid">
+              <label class="control-field control-field--search">
+                <span>Search people or topics</span>
+                <input id="searchInput" type="search" placeholder="payments, launch, docs..." />
+              </label>
+              <div class="control-field control-field--search source-filter-field">
+                <span>Sources (multi-select)</span>
+                <div id="sourceFilterGroup" class="source-filter-group"></div>
+              </div>
+              <label class="control-field">
+                <span>Relationship type</span>
+                <select id="relationshipFilter">
+                  <option value="all">All relationships</option>
+                </select>
+              </label>
+              <label class="control-field">
+                <span>Minimum strength</span>
+                <div class="range-row">
+                  <input id="weightFilter" type="range" min="0" max="10" value="0" />
+                  <strong id="weightValue">0+</strong>
+                </div>
+              </label>
+              <div class="zoom-controls">
+                <button id="zoomOutButton" class="icon-button" aria-label="Zoom out">-</button>
+                <button id="zoomInButton" class="icon-button" aria-label="Zoom in">+</button>
+              </div>
+            </div>
+
+            <div class="graph-stage">
+              <div class="graph-hud">
+                <span id="visiblePeoplePill" class="hud-pill">0 visible</span>
+                <span id="selectionPill" class="hud-pill hud-pill--active">All connections</span>
+                <span id="zoomPill" class="hud-pill">Zoom 100%</span>
+              </div>
+              <svg id="graphCanvas" viewBox="0 0 1200 760" aria-label="Knowledge graph"></svg>
+            </div>
+          </section>
+
+          <aside class="insight-panel card">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow eyebrow--small">Connection Detail</p>
+                <h2>Insights</h2>
+              </div>
+              <button id="clearSelectionButton" class="ghost-button">Clear focus</button>
+            </div>
+
+            <div id="detailCard" class="detail-card">
+              <p>Select a person in the graph to see the combined relationship breakdown.</p>
+            </div>
+
+            <section class="visible-panel">
+              <div class="visible-panel-header">
+                <h3>Visible people</h3>
+                <span id="visibleCountText">0 nodes</span>
+              </div>
+              <div id="visiblePeopleList" class="visible-people"></div>
+            </section>
+          </aside>
+        </main>
+      </section>
+
+      <section id="integrationsTab" class="tab-panel" hidden>
+        <div class="integrations-layout">
+          <section class="card integrations-overview">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow eyebrow--small">Integration Status</p>
+                <h2>Connect your stack</h2>
+              </div>
+            </div>
+            <div id="integrationSummary" class="summary-grid"></div>
+          </section>
+
+          <section class="card integrations-browser">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow eyebrow--small">Available Sources</p>
+                <h2>Integrations</h2>
+              </div>
+            </div>
+            <div id="integrationGrid" class="integration-grid"></div>
+          </section>
+
+          <section class="card integration-detail-panel">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow eyebrow--small">Setup</p>
+                <h2>Selected integration</h2>
+              </div>
+            </div>
+            <div id="integrationDetail"></div>
+          </section>
+
+        </div>
+      </section>
+    </div>
+
+    <script src="./runtime-config.js"></script>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
