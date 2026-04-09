@@ -57,6 +57,29 @@ npm run dev
 
 6. Open `http://localhost:3000`.
 
+## GitHub Pages
+
+The repository is set up to deploy the `public/` directory to GitHub Pages from `.github/workflows/deploy-pages.yml`.
+
+GitHub Pages hosts the static frontend only, so the deployed site runs in preview mode by default.
+
+To publish it:
+
+1. Push `main` to GitHub.
+2. In GitHub, open repository `Settings -> Pages`.
+3. Set the source to `GitHub Actions`.
+4. Wait for the `Deploy GitHub Pages` workflow to finish.
+
+If you want live integrations from the Pages site, edit `public/runtime-config.js` and set:
+
+```js
+window.KNOWLEDGE_GRAPH_PRO_CONFIG = {
+  apiBase: "https://your-backend.example.com"
+};
+```
+
+That backend must host the same `/api/*` and `/auth/*` routes used by the local Node app.
+
 ## Integration flow
 
 1. Open **Integrations** tab.

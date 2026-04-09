@@ -1,5 +1,5 @@
 import { saveIntegrationConfig } from "./api.js";
-import { hasBackend, resolveApiUrl } from "./config.js";
+import { hasBackend, isLikelyStaticHost, resolveApiUrl } from "./config.js";
 import { elements } from "./dom.js";
 import { state } from "./state.js";
 import { setStatus } from "./status.js";
@@ -106,9 +106,15 @@ function renderIntegrationDetail(refreshAppConfig) {
   const redirectUri =
     integration.redirectUri || `${state.appConfig.appOrigin || window.location.origin}/auth/${integration.id}/callback`;
   const connectedUser = integration.user?.name || integration.user?.team || integration.user?.siteName || "";
+  const pagesPreviewMode = !hasBackend && isLikelyStaticHost();
   const integrationCopy = isLive
-    ? "Save credentials, then connect this source to pull live collaboration signals."
+    ? pagesPreviewMode
+      ? "GitHub Pages is running in preview mode. Add your backend URL in runtime-config.js to enable credential saving and OAuth for this source."
+      : "Save credentials, then connect this source to pull live collaboration signals."
     : "This connector is in the roadmap. You can still include it in demo mode while we ship live API support.";
+  const setupNote = pagesPreviewMode
+    ? "Preview mode is active. Live setup is disabled until a backend API base URL is configured."
+    : "Connect is enabled after credentials are saved.";
 
   elements.integrationDetail.innerHTML = `
     <div class="fade-in integration-detail-copy">
@@ -166,7 +172,7 @@ function renderIntegrationDetail(refreshAppConfig) {
             } />
           </label>
         </div>
-        <p class="setup-note">Connect is enabled after credentials are saved.</p>
+        <p class="setup-note">${escapeHtml(setupNote)}</p>
         <div class="integration-actions">
           <button type="submit" class="secondary-button" ${!hasBackend ? "disabled" : ""}>Save Credentials</button>
         </div>

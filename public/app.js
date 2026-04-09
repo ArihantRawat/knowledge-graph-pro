@@ -1,4 +1,5 @@
 import { loadAppConfig } from "./js/api.js";
+import { hasBackend, isLikelyStaticHost } from "./js/config.js";
 import { elements } from "./js/dom.js";
 import {
   connectedSourceIds,
@@ -119,11 +120,19 @@ async function init() {
   }
 
   if (!pageError) {
-    setStatusBadge("Preview mode", "preview");
-    setStatus(
-      "Previewing a combined graph. Connect any integration in Integrations when you want live data.",
-      "preview"
-    );
+    if (!hasBackend && isLikelyStaticHost()) {
+      setStatusBadge("GitHub Pages mode", "preview");
+      setStatus(
+        "Running in GitHub Pages preview mode. Set public/runtime-config.js with your backend URL when you want live integrations.",
+        "preview"
+      );
+    } else {
+      setStatusBadge("Preview mode", "preview");
+      setStatus(
+        "Previewing a combined graph. Connect any integration in Integrations when you want live data.",
+        "preview"
+      );
+    }
   }
   await refreshGraph("demo");
 }
